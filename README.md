@@ -34,7 +34,13 @@ A **loading screen** was developed that simultaneously builds the schedule. Afte
 - The service orders for each vehicle that requires maintenance
 - The start time for each service order
 
-## Technology Used
+## Technologies Used
 
-- **APIs**
-- **Frontend Development** (for screens and UI)
+- **Backend**: JavaScript
+- **Frontend**: HTML, CSS
+- **APIs** (for communication between the backend and frontend)
+
+## How It Works
+
+- The **backend** was developed using **JavaScript** to handle the business logic, automation, and API requests.
+- The **frontend** was built using **HTML** and **CSS** for the user interface, allowing users to interact with the system in an intuitive way.
