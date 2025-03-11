@@ -1,0 +1,147 @@
+body {
+    background-image: url("../imagensDaRoca/BackgroundCarregamento.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: 'Questrial';
+}
+
+#titulo {
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+
+    margin-bottom: 10px;
+}
+
+.caminhaoCarregamento {
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 0;
+    height: 40px;
+    transition: left 0.1s linear;
+}
+
+
+.barraProgresso {
+    width: 406px;
+    height: 37px;
+    padding: 1px;
+    position: relative;
+    border-radius: 13px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.barraProgresso .progresso {
+    width: 200px;
+    height: 35px;
+    border-radius: 13px;
+    background-color: #ff8328;
+}
+
+.barraProgresso .progresso.active::before {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-size: 18px;
+
+    transform: translateX(-50%);
+}
+
+.contador {
+    font-size: 20px;
+    color: #f16d01;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.efeitoTxt {
+    animation: animacao .5s ease-in-out .1;
+}
+
+@keyframes animacao {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .2s;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#conteudo table {
+    display: flexbox;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-family: 'Questrial';
+    background-color: white;
+
+}
+
+table {
+    width: 100%;
+    height: 100%;     
+    table-layout: fixed; 
+    border-collapse: collapse;
+}
+
+#conteudoP {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas largura igual*/
+    gap: 15px; 
+    width: 100%; 
+    max-width: 1800px;
+    margin: 5px auto; 
+}
+
+.mecs {
+    width: 100%;       
+    height: 360px;
+    border-radius: 15px;
+    box-sizing: border-box; /* Inclui bordas e padding no tamanho total */
+    overflow: hidden;   /* Impede que o conteúdo ultrapasse o card */
+    display: flex;
+    flex-direction: column; 
+}
+
+#botaoVoltar{
+    margin-top: 10px;
+
+    width: 90px;
+    height: 35px;
+
+    padding: 3px;
+
+    border: 2px solid #f16d01;
+    border-radius: 5px;
+    background-color: #013c31;
+}
+
+#areaBotao :hover{
+    background-color: #f16d01;
+}
+.mecs{
+    text-align: center;
+}
+
+.material-symbols-outlined{
+    color: #ffffff;
+}
