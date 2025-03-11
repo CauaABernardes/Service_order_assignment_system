@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telaLogin.css">
+    <link rel="stylesheet" href="../global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body onload="pegarDados()">
+    <header>
+        <img id="logoLogin" src="../imagensDaRoca/logoDaRocaPl.png" alt="DaRoca">
+    </header>
+    <div class="container">
+        <div class="areaLoginCriar">
+            <form class="formulario">
+                <div class="campos">
+                    <div class="espacamento">
+                        <label for="login" class="labelsLoginCriar">Login:</label>
+                    </div>
+                    <div class="espacamento">
+                        <input type="text" id="login" class="inputsLoginCriar" placeholder="Informe seu login">
+                    </div>
+                </div>
+                <div class="campos">
+                    <div class="espacamento">
+                        <label for="senha" class="labelsLoginCriar">Senha:</label>
+                    </div>
+                    <div class="espacamento">
+                        <input type="password" id="senha" class="inputsLoginCriar" placeholder="Digite sua senha">
+                    </div>
+                </div>
+                <div class="espacamentoBotao">
+                    <input type="reset" class="botao" value="Limpar">
+                    <button type="button" class="botao" onclick="validacaoUsuario()">Entrar</button>
+                </div>
+                <p id="respostaValidacao"></p>
+            </form>
+        </div>
+    </div>
+    <script src="telaLogin.js"></script>
+</body>
+
+</html>
