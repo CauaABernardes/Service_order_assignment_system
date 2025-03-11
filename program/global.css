@@ -1,0 +1,247 @@
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaLoginCriar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 600px;
+    width: 600px;
+    background-image: url("imagensDaRoca/formaOrganicaBege.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    text-align: left;
+
+    font-family: 'Questrial';
+}
+
+.formulario {
+    width: 400px;
+    height: 300px;
+
+    margin-top: -30px;
+}
+
+.espacamento {
+    margin: 20px;
+}
+
+.espacamentoBotao {
+    margin: 15px;
+
+    display: flex;
+    justify-content: end;
+}
+
+.botao {
+    width: 90px;
+    height: 40px;
+    margin: 8px;
+
+    font-family: 'Questrial';
+    font-size: 20px;
+
+    background-color: #ff8328;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #81a425;
+}
+
+.labelsLoginCriar {
+    font-size: 35px;
+}
+
+.inputsLoginCriar {
+    width: 250px;
+    height: 30px;
+
+    border: 1px solid #0000;
+    border-radius: 10px;
+
+    font-family: 'Questrial';
+}
+
+.menu {
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -8px;
+    display: flex;
+    background-color: #013c31;
+    background-size: cover;
+}
+
+.logoDaRocaPl {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.tamTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -40px;
+
+    width: 1500px;
+}
+
+.titulo {
+    margin-bottom: -10px;
+
+    text-align: center;
+
+    font-size: 80px;
+    font-family: 'Anton';
+    color: #ffffff;
+}
+
+.areaPesquisa {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#pesquisar {
+    width: 550px;
+    height: 30px;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #0000;
+
+    font-family: 'Questrial';
+}
+
+#lupa {
+    width: 35px;
+    text-align: center;
+
+    padding-top: 5px;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    background-color: #ffffff;
+    border: 1px solid #0000;
+}
+
+table,tr,th,td {
+    border-collapse: collapse;
+    border: 1px solid #00000000;
+
+    font-family: 'Questrial';
+
+    background-color: #ffffff;
+}
+
+tr {
+    height: 30px;
+
+}
+
+th {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}
+
+td {
+    width: 300px;
+    text-align: center;
+}
+
+#tabela {
+    margin: auto;
+    width: 1500px;
+}
+
+.paginacao a {
+    margin: 0 4px;
+    padding: 8px 16px;
+
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+
+    opacity: 80%;
+    transition: background-color .3s;
+
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.paginacao a:hover {
+    background-color: #013c31;
+    color: #ffffff;
+}
+
+.paginacaoAlinhamento {
+    position: fixed;
+    display: inline-block;
+
+    padding: 10px 0;    
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-radius: 5px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+    font-family: 'Questrial';
+}
+
+.botoesSuperiores {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.botaoInicialAtualizar {
+    width: 70px;
+    height: 50px;
+
+    margin: 8px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: #f16d01;
+}
+
+.botoesSuperiores :hover {
+    background-color: #81a425;
+}
+
+#imagemLogoInferiorEsquerdo {
+    margin-top: 80px;
+}
+
+.subtitulo {
+    font-family: 'Questrial';
+}
