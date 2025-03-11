@@ -1,0 +1,172 @@
+body{
+    background-image: url("../imagensDaRoca/BackgroundCronograma.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #013c31;
+
+    margin-bottom: -80px;
+}
+
+nav{
+    height: 90px;
+}
+
+#container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoSecundaria{
+    text-align: center;
+    
+
+    color: #ff8328;
+    font-family: 'Questrial';
+    font-size: 60px;
+}
+
+#cronograma{
+    margin-top: -5px;
+    margin-bottom: -5px;
+
+    text-align: center;
+
+    color: #81a425;
+    font-family: 'Anton';
+    font-size:70px;
+}
+
+#tabelaCronograma{
+    width: 900px;
+    height: 500px;
+
+    margin: auto;
+}   
+
+
+#botoesInferioresCronograma{
+    width: 100px;
+    height: 40px;
+    
+    margin-top: 30px; 
+    margin-left: 780px;
+}
+
+#botaoHome{
+    width: 100px;
+    height: 40px;
+
+
+    border: none;
+    border-radius: 15px;
+
+    background-color: #81a425;
+}
+
+#botaoHome:hover{
+    background-color:#ff8328;
+}
+
+#conteudo table {
+    display: flexbox;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-family: 'Questrial';
+    background-color: white;
+
+}
+
+table {
+    width: 100%;
+    height: 100%;     
+    table-layout: fixed; 
+    border-collapse: collapse;
+}
+
+#conteudo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas largura igual*/
+    gap: 15px; 
+    width: 100%; 
+    max-width: 1800px;
+    margin: 10px auto; 
+    margin-bottom: -25px;
+}
+
+.mecs {
+    width: 400px;       
+    height: 360px;
+    border-radius: 15px;
+    box-sizing: border-box; /* Inclui bordas e padding no tamanho total */
+    overflow: hidden;   /* Impede que o conteúdo ultrapasse o card */
+    display: flex;
+    flex-direction:column; 
+}
+
+#botaoVoltar{
+    margin-top: 10px;
+
+    width: 90px;
+    height: 35px;
+
+    padding: 3px;
+
+    border: 2px solid #f16d01;
+    border-radius: 5px;
+    background-color: #013c31;
+}
+
+#areaBotao{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+#areaBotao :hover{
+    background-color: #f16d01;
+}
+
+#cronograma{
+    height:85px;
+}
+
+#divData{
+    background-color: #81a425;
+    color: #ffffff;
+
+    width: 100px;
+    height: 17px;
+    margin: auto;
+
+    border-radius: 20px;    
+}
+
+#dataCronograma{
+    text-align: center;
+    font-family: 'Questrial';
+
+
+}    
+
+#areaBotao{
+    margin: auto;
+    width: 50px;
+}
+
+.material-symbols-outlined{
+    color: #ffffff;
+}
